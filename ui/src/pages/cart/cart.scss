@@ -1,0 +1,23 @@
+.cart {
+  .wrapper {
+    display: flex;
+
+    .picture {
+      flex: 1;
+      padding: 20px;
+
+      img {
+        width: 70%;
+        object-fit: cover;
+      }
+    }
+
+    .detail {
+      flex: 1;
+    }
+
+    .summary {
+      flex: 1;
+    }
+  }
+}
